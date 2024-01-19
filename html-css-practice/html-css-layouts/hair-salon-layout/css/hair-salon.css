@@ -29,12 +29,10 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
-}
-
-footer {
-
+.site-wrapper, header, nav ul, main, .main-coupon-card, .about-container, .about-card, 
+.services-container, .services-left, .staff-container, .staff-card, .news-container, 
+.lookbook-container {
+  display: flex;
 }
 
 /******************************************
