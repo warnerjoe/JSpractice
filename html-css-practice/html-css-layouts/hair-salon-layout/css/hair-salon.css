@@ -35,6 +35,15 @@ body {
   display: flex;
 }
 
+header, nav ul, .about-container, .services-container, .staff-container {
+  flex-direction: row;
+}
+
+.site-wrapper, main, .main-coupon-card, .about-card, .services-left, 
+.staff-card, .news-container, .lookbook-container {
+  flex-direction: column;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
