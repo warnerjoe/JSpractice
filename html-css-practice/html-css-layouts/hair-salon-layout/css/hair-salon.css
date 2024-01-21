@@ -44,6 +44,15 @@ header, nav ul, .about-container, .services-container, .staff-container {
   flex-direction: column;
 }
 
+header li {
+  display: inline-block;
+}
+
+header a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
