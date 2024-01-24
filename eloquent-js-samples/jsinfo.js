@@ -103,3 +103,20 @@ Please note that multiplyNumeric does not need to return anything. It should mod
 P.S. Use typeof to check for a number here.
 
 */
+
+let menu = {
+    width: 200,
+    height: 300,
+    title: "My menu"
+};
+
+function multiplyNumber(obj) {
+    for (let key in obj){
+        if (typeof obj[key] === 'number') {
+            obj[key] *= 2;
+        }
+    }
+}
+
+multiplyNumber(menu);
+console.log(menu);
