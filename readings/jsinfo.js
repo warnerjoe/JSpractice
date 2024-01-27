@@ -141,7 +141,7 @@ let obj = {};
 function A() {return obj;}
 function B() {return obj;}
 
-console.log(new A() === new B())
+console.log(new A() === new B());
 
 /*
 Create new Calculator
@@ -159,3 +159,25 @@ calculator.read();
 alert( "Sum=" + calculator.sum() );
 alert( "Mul=" + calculator.mul() );
 */
+
+function Calculator() {
+
+    this.read() {
+        this.a = +prompt("Provide a value", 0);
+        this.b = +prompt("Provide a value", 0);
+    };
+
+    this.sum() { 
+        return this.a + this.b 
+    };
+    
+    this.mul() { 
+        return this.a * this.b 
+    };
+}
+
+let calculator = new Calculator();
+calculator.read();
+
+console.log( "Sum=" + calculator.sum() );
+console.log( "Mul=" + calculator.mul() );
