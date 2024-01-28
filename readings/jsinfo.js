@@ -158,8 +158,8 @@ calculator.read();
 
 alert( "Sum=" + calculator.sum() );
 alert( "Mul=" + calculator.mul() );
-*/
 
+// COMMENTED OUT BECAUSE CAUSES ERROR 
 function Calculator() {
 
     this.read() {
@@ -181,3 +181,5 @@ calculator.read();
 
 console.log( "Sum=" + calculator.sum() );
 console.log( "Mul=" + calculator.mul() );
+*/
+
