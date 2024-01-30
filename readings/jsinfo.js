@@ -202,8 +202,8 @@ accumulator.read(); // adds the user-entered value
 accumulator.read(); // adds the user-entered value
 
 alert(accumulator.value); // shows the sum of these values
-*/
 
+// COMMENTED OUT TO AVOID ERROR MESSAGE
 function Accumulator(startingValue) {
     this.value = startingValue;
 
@@ -216,3 +216,4 @@ let accumulator = new Accumulator(1);
 accumulator.read();
 accumulator.read();
 alert(accumulator.value);
+*/
