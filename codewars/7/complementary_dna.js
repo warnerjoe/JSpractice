@@ -19,7 +19,15 @@ Example: (input --> output)
 MY ANSWER
 ***********************************************************************************************/
 
-
+function dnaStrand(dna){
+    let data = new Map();
+    data.set("A", "T");
+    data.set("C", "G");
+    data.set("G", "C");
+    data.set("T", "A");
+    
+    return dna.split('').map((a) => data.get(a)).join('');
+  }
 
 /***********************************************************************************************
 BEST ANSWER
