@@ -17,7 +17,18 @@ As usual, your function/method should be pure, i.e. it should not mutate the ori
 MY ANSWER
 ***********************************************************************************************/
 
-
+String.prototype.toAlternatingCase = function () {
+    let newString = "";
+    
+    for (let i = 0; i < this.length; i++) {
+      let currentLetter = this[i];
+      newString += 
+        currentLetter === currentLetter.toUpperCase() 
+            ? currentLetter.toLowerCase() : currentLetter.toUpperCase()
+    }
+    
+    return newString;
+  }
 
 /***********************************************************************************************
 BEST ANSWER
