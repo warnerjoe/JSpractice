@@ -15,7 +15,7 @@ Examples (Input --> Output)
 Remarks
 All arrays or lists will always have at least one element, so you don't need to check the length. Also, your function will always get an array or a list, you don't have to check for null, undefined or similar.
 
-// URL: 
+// URL: https://www.codewars.com/kata/559590633066759614000063/train/javascript
 
 ************************************************************************************************
 PREP
