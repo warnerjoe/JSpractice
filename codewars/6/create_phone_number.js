@@ -14,7 +14,21 @@ Don't forget the space after the closing parentheses!
 MY ANSWER
 ***********************************************************************************************/
 
-
+function createPhoneNumber(numbers){
+    function numberCompiler(digits) {
+      let compiled = '';
+      for (let i = 0; i < digits; i++) {
+        compiled += numbers.shift();
+      }
+      return compiled;
+    }
+    
+    let firstPart = numberCompiler(3);
+    let secondPart = numberCompiler(3);
+    let thirdPart = numberCompiler(4);
+    
+    return `(${firstPart}) ${secondPart}-${thirdPart}`
+  }
 
 /***********************************************************************************************
 BEST ANSWER
