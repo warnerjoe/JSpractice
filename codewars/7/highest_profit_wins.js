@@ -21,20 +21,28 @@ All arrays or lists will always have at least one element, so you don't need to 
 PREP
 ***********************************************************************************************
 
-PARAMETERS - 
+PARAMETERS - An array of unsorted numbers
 
-RESULTS - 
+RESULTS - An array containing the lowest and highest number
 
-EXAMPLE - 
+EXAMPLE - [5, 6, 18, 1, 3] = [1, 18]
 
 PSEUDOCODE - 
+
+Create an empty array to hold the result
+Use math.min() and math.max() to .push() the lowest and highest result
+Return result
 
 ************************************************************************************************
 MY ANSWER
 ***********************************************************************************************/
 
-
-
+function minMax(arr){
+    const result = [];
+    result.push(Math.min(...arr), Math.max(...arr))
+    return result;
+  }
+  
 /***********************************************************************************************
 BEST ANSWER
 ************************************************************************************************
