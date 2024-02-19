@@ -55,4 +55,8 @@ function minMax(arr){
 WHAT I LEARNED
 ************************************************************************************************
 
+
+I believe using Math.min() and .max() would be the best timing complexity o(n), since there isn't a constant way to solve this problem.
+
+The best practices reminded me that creating the empty array was an unncessary step.
 */
