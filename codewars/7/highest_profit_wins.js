@@ -29,9 +29,8 @@ EXAMPLE - [5, 6, 18, 1, 3] = [1, 18]
 
 PSEUDOCODE - 
 
-Create an empty array to hold the result
-Use math.min() and math.max() to .push() the lowest and highest result
-Return result
+Use math.min() and math.max() to .push() the lowest and highest result, put them directly inside of a literal array
+Return that array
 
 ************************************************************************************************
 MY ANSWER
