@@ -22,11 +22,32 @@ EXAMPLE - http://codewars.com would return "codewars"
 
 PSEUDOCODE - 
 
+Remove the suffix (http://www.)
+
+Remove the end (after .ext/anything)
+
+Return domain
+
 ************************************************************************************************
 MY ANSWER
 ***********************************************************************************************/
 
-
+function domainName(url){
+    let result = ""
+    
+    if (url.includes("www")) {
+      let smaller = url.split("."); // ["http://www", "google", "com"]  
+      result = smaller[1];
+    } else if (url.includes("http")) {
+      let smaller = url.split("//") // ["http:", "google.com"]
+      let domain = smaller[1].split(".")
+      result = domain[0];
+    } else {
+      result = url.split(".")[0]
+    }
+    
+    return result;
+  }
 
 /***********************************************************************************************
 BEST ANSWER
@@ -47,5 +68,8 @@ function domainName(url){
 WHAT I LEARNED
 ************************************************************************************************
 
+I had not practiced with .replace() yet and have looked it up on MDN and added to my Anki deck.
+
+The best solution and mine are in constant time, which is both great.
 
 */
