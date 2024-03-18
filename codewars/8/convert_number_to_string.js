@@ -2,10 +2,10 @@
 ------------------------------------------------------------------------------------------------
 CONVERT A NUMBER TO A STRING
 ------------------------------------------------------------------------------------------------
+We need a function that can transform a number (integer) into a string.
 */
 
 function numberToString(num) {
-    // Return a string of the number here!
     str = "";
     str += num;
     return str;
@@ -15,5 +15,7 @@ function numberToString(num) {
 ---------------------------------------------
 BEST ANSWER
 ---------------------------------------------
-
+function numberToString(num) {
+  return num.toString();
+}
 */
