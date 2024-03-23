@@ -1,5 +1,5 @@
 /***********************************************************************************************
-TEMPLATE
+COMPARE YOUR SCORE TO THE CLASS AVERAGE
 ************************************************************************************************
 
 There was a test in your class and you passed it. Congratulations!

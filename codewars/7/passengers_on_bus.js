@@ -1,5 +1,5 @@
 /***********************************************************************************************
-TEMPLATE
+HOW MANY PASSENGERS ON THE BUS?
 ************************************************************************************************
 
 There is a bus moving in the city which takes and drops some people at each bus stop.
