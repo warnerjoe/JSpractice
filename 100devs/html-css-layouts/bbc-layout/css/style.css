@@ -22,21 +22,86 @@
 /*******************************************/
 
 body {
-
+ background-color: white;
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
-
+  background-color: black;
 }
 
-footer {
+nav {
+  color: white;
+  text-align: center;
+}
 
+nav li {
+  display: inline-block;
+}
+
+nav input {
+  background-color: green;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.splash-divider {
+  width: 100%;
+}
+
+.article-container {
+  display: flex;
+  height: 33%;
+  flex-flow: row wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.small-article-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  height: 100%;
+  width: 50%;
+}
+
+.large-article {
+  width: 50%;
+  height: 100%;
+  background: url('large-article.jpg');
+  background-color: orange;
+  border: 3px solid green;
+}
+
+.medium-article {
+  width: 33%;
+  height: 50%;
+  background-color: pink;
+  border: 3px solid green;
+}
+
+.small-article {
+  background-color: maroon;
+  width: 50%;
+  height: 50%;
+  border: 3px solid green;
+}
+
+.small1 {
+  background-image: url('small-1.jpg');
+}
+
+.small2 {
+  background-image: url('small-2.jpg');
+}
+
+.small3 {
+  background-image: url('small-3.jpg');
+}
+
+.small4 {
+  background-image: url('small-4.jpg');
+}
