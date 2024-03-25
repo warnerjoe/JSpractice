@@ -79,6 +79,8 @@ nav {
   text-align: center;
   display: block; 
   width: 70%;
+  line-height: 10px;
+  height: 10px;
 }
 
 ul li {
