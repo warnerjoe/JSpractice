@@ -14,34 +14,40 @@
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/5d009b8ae0.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 		<main id='site-wrapper'>
 			<header>
 				<img src='./images/bbclogo.png' alt='British Broadcasting Company logo' id="header-logo">
+
 				<section class="account-management">
-					<i data-feather="user"></i>
-					<h4>Sign In</h4>
+					<a href="#" id="sign-in">
+						<i class="fa-regular fa-user"></i>
+						<h4>Sign In</h4>
+					</a>
 				</section>
 				
 				<nav>
 					<ul>
-						<li><p>Home</p></li>
-						<li><p>News</p></li>
-						<li><p>Sport</p></li>
-						<li><p>Reel</p></li>
-						<li><p>Worklife</p></li>
-						<li><p>Travel</p></li>
-						<li><p>Future</p></li>
-						<li><p>Culture</p></li>
-						<li><p>More</p></li>
+						<li><p><a href='#'>Home</a></p></li>
+						<li><p><a href='#'>News</a></p></li>
+						<li><p><a href='#'>Sport</a></p></li>
+						<li><p><a href='#'>Reel</a></p></li>
+						<li><p><a href='#'>Worklife</a></p></li>
+						<li><p><a href='#'>Travel</a></p></li>
+						<li><p><a href='#'>Future</a></p></li>
+						<li><p><a href='#'>Culture</a></p></li>
+						<li><p><a href='#'>More</a></p></li>
 					</ul>
-					<form>
-						<input placeholder='Search'>
-						<label>i</label>
-					</form>
+					
 				</nav>
+				<section id="search">
+					<form>	
+						<input placeholder='Search'>
+						<button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+					</form>
+				</section>
 			</header>
 
 			<section class='splash-divider'>
@@ -108,8 +114,6 @@
 	</main>
 			
 		<script type="text/javascript" src="js/main.js"></script>
-		<script>
-			feather.replace();
-		  </script>
+		
 	</body>
 </html>
