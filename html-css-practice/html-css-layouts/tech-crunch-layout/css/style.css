@@ -71,9 +71,14 @@ aside {
   width: 5rem;
 }
 
-h3 {
+aside h3 {
   display: inline-block;
   color: gold;
+}
+
+.splash-divider {
+  border-bottom: 1px solid gray;
+  margin-bottom: 2rem;
 }
 
 nav ul {
@@ -148,9 +153,18 @@ main {
   max-width: 33%;
 }
 
-.medium-article, .small-article {
+.medium-article {
   border-bottom: 1px solid gray;
 }
+
+.small-article {
+  border-top: 1px solid gray;
+}
+
+.small-article:first-of-type {
+  border-top: none;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
