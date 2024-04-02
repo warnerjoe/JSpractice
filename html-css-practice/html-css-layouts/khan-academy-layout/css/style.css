@@ -98,6 +98,10 @@ main {
   flex-basis: 100%;
 }
 
+.double-undies {
+  border-bottom: 2px double green;
+}
+
 .main-content {
   display: flex;
 }
