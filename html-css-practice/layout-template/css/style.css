@@ -25,6 +25,16 @@ body {
 
 }
 
+.site-wrapper {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  max-width: 144rem;
+  background: white;
+  margin: auto;
+  overflow: hidden;
+}
 
 /******************************************
 /* LAYOUT
