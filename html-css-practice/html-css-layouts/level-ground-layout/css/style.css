@@ -98,7 +98,7 @@ footer, .copyright-section {
 }
 
 .head-main-container {
-  background: url('../images/banner.jpg'), #66768A;
+  background: url('../images/banner.jpg'), black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -154,6 +154,7 @@ h3 {
 
 .class-section {
   justify-content: center;
+  background-color: #ccc;
 }
 
 .class-card {
@@ -215,5 +216,12 @@ h3 {
 
   main p {
     max-width: 80%;
+  }
+}
+
+@media (max-width: 1045px) {
+  .head-main-container {
+    background-repeat: no-repeat;
+    background-size: auto 100%;
   }
 }
