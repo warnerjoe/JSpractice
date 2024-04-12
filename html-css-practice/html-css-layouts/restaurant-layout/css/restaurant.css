@@ -22,15 +22,35 @@
 /*******************************************/
 
 body {
-
+  font-family: "Noto Sans", sans-serif;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+header, main, .about-container, .menu-container, .reservation-container, .testimonial-containers {
+  display: flex;
+}
 
+header , .main-socials-container, .menu-cards-container, .menu-container > nav > ul {
+  flex-direction: row;
+}
+
+.reservation-container, .main-container, .about-container, .menu-container {
+  flex-direction: column;
+}
+
+header {
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+}
+
+h6 {
+  display: inline-block;
 }
 
 footer {
