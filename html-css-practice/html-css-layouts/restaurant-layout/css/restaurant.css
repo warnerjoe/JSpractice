@@ -33,11 +33,11 @@ header, main, .about-container, .menu-container, .reservation-container, .testim
   display: flex;
 }
 
-header , .main-socials-container, .menu-cards-container, .menu-container > nav > ul {
+header , .main-socials-container, .menu-cards-container, .menu-container > nav > ul, .hours-of-operation {
   flex-direction: row;
 }
 
-.reservation-container, .main-container, .about-container, .menu-container {
+.reservation-container, .main-container, .about-container, .menu-container, .menu-card {
   flex-direction: column;
 }
 
