@@ -37,7 +37,7 @@ header , .main-socials-container, .menu-cards-container, .menu-container > nav >
   flex-direction: row;
 }
 
-.reservation-container, .main-container, .about-container, .menu-container, .menu-card {
+.reservation-container, .main-container, .about-container, .menu-container, .menu-card, .reservation-container, .hours-left, .hours-right, .testimonials-container, .testimonial-card-container {
   flex-direction: column;
 }
 
