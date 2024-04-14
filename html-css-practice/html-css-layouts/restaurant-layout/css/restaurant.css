@@ -20,7 +20,9 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
+html {
+  font-size: 62.50%;
+}
 body {
   font-family: "Noto Sans", sans-serif;
 }
@@ -41,17 +43,62 @@ header , .main-socials-container, .menu-cards-container, .menu-container > nav >
   flex-direction: column;
 }
 
+
 header {
   justify-content: space-between;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+h6 {
+  display: inline-block;
+  font-weight: 100;
 }
 
 li {
   display: inline-block;
 }
 
-h6 {
-  display: inline-block;
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: inherit;
+  text-decoration: inherit;
 }
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+header li {
+  padding: 0 2rem;
+}
+
+main li {
+  padding-right: 4rem;
+}
+
+main a {
+  font-size: 2.2rem;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+main i {
+  font-size: 1.6rem;
+  color: orange;
+}
+
+
 
 footer {
 
