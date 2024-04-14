@@ -25,13 +25,14 @@ html {
 }
 body {
   font-family: "Noto Sans", sans-serif;
+  padding: 0 10rem;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header, main, .about-container, .menu-container, .reservation-container, .testimonial-containers {
+header, main, .about-container, .menu-container, .reservation-container, .testimonial-containers, form {
   display: flex;
 }
 
@@ -41,6 +42,11 @@ header , .main-socials-container, .menu-cards-container, .menu-container > nav >
 
 .reservation-container, .main-container, .about-container, .menu-container, .menu-card, .reservation-container, .hours-left, .hours-right, .testimonials-container, .testimonial-card-container {
   flex-direction: column;
+}
+
+.div-container {
+  width: 90%;
+  margin: 0 5%;
 }
 
 
@@ -55,6 +61,12 @@ h1 {
 }
 
 h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: orange;
+}
+
+h3 {
   font-size: 5rem;
   font-weight: 500;
 }
@@ -83,8 +95,44 @@ header li {
   padding: 0 2rem;
 }
 
+main {
+  background: #dddddd;
+  padding-bottom: 8rem;
+}
+
 main li {
-  padding-right: 4rem;
+  padding-right: 6rem;
+}
+
+.main-content {
+  width: 50%;
+}
+
+form {
+  align-items: center;
+}
+
+#main-mag {
+  position: absolute;
+  padding: 1.3rem .8rem; 
+  color: gray;
+}
+
+main input {
+  padding: 1rem 1rem 1rem 3rem;
+  width: 75%;
+  font-size: 1.8rem;
+  border-radius: .7rem 0 0 .7rem;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+form button {
+  color: white;
+  background: orange;
+  padding: 1.3rem 1.8rem;
+  border-radius: 0 .7rem .7rem 0;
+  border: 2px solid orange;
 }
 
 main a {
@@ -96,6 +144,10 @@ main a {
 main i {
   font-size: 1.6rem;
   color: orange;
+}
+
+.main-socials:first-of-type{
+  padding-left: 0;
 }
 
 
