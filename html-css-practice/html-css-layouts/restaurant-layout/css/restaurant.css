@@ -121,7 +121,7 @@ main li {
 }
 
 form {
-  align-items: center;
+  align-items: stretch;
   padding: 0;
 }
 
@@ -143,9 +143,10 @@ main input {
 form button {
   color: white;
   background: orange;
-  padding: 1.3rem 2.5rem;
+  font-size: 1.8rem;
+  padding: .9rem 2.5rem;
   border-radius: 0 .7rem .7rem 0;
-  border: 2px solid orange;
+  border: 1px solid orange;
 }
 
 main a {
