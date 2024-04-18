@@ -25,22 +25,23 @@ html {
 }
 body {
   font-family: "Noto Sans", sans-serif;
+  display: flex;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header, main, .about-container, .menu-container, .reservation-container, .testimonial-containers, form {
+header, main, .main-button, .about-container, .menu-container, .reservation-container, .testimonial-containers, form {
   display: flex;
   padding: 0 10rem;
 }
 
-header , .main-socials-container, .menu-cards-container, .menu-container > nav > ul, .hours-of-operation {
+header , .main-socials-container, .about-container, .menu-cards-container, .menu-container > nav > ul, .hours-of-operation, .menu-btn {
   flex-direction: row;
 }
 
-.reservation-container, .main-container, .about-container, .menu-container, .menu-card, .reservation-container, .hours-left, .hours-right, .testimonials-container, .testimonial-card-container {
+body, .reservation-container, .main-container, .menu-container, .menu-card, .reservation-container, .hours-left, .hours-right, .testimonials-container, .testimonial-card-container {
   flex-direction: column;
 }
 
@@ -71,8 +72,11 @@ h2 {
 }
 
 h3 {
+  margin: 0;
+  padding: 0;
   font-size: 5rem;
   font-weight: 500;
+  padding-bottom: 1.5rem;
 }
 
 h6 {
@@ -140,13 +144,18 @@ main input {
   border-collapse: collapse;
 }
 
-form button {
+.main-button {
   color: white;
   background: orange;
   font-size: 1.8rem;
   padding: .9rem 2.5rem;
   border-radius: 0 .7rem .7rem 0;
   border: 1px solid orange;
+}
+
+.main-button i {
+  padding-left: .8rem;
+  color: white;
 }
 
 main a {
@@ -164,10 +173,42 @@ main i {
   padding-left: 0;
 }
 
+.about-container {
+  justify-content: flex-end;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: url("../images/restaurant/second-bg.jpg") repeat-y;
+  background-size: cover;
+}
 
+.about-content {
+  width: 50%;
+}
 
-footer {
+.about-container p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 3.2rem;
+}
 
+.menu-btn {
+  margin-top: 3rem;
+  display: flex;
+  align-items: stretch;
+  font-size: 1.6rem;
+  width: 50%;
+}
+
+.menu-btn .about-button {
+  padding: 1.4rem;
+  background: orange;
+  border-radius: .7rem 0 0 .7rem;
+}
+
+.menu-btn i {
+  background: orangered;
+  padding: 1.4rem;
+  border-radius: 0 .7rem .7rem 0;
 }
 
 /******************************************
