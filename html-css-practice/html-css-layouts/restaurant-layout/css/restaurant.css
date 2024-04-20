@@ -211,6 +211,22 @@ main i {
   border-radius: 0 .7rem .7rem 0;
 }
 
+.menu-1 {
+  background: url("../images/restaurant/menu1.png") repeat-y;
+}
+
+.menu-2 {
+  background: url("../images/restaurant/menu2.png") repeat-y;
+}
+
+.menu-3 {
+  background: url("../images/restaurant/menu3.png") repeat-y;
+}
+
+.menu-4 {
+  background: url("../images/restaurant/menu4.png") repeat-y;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
