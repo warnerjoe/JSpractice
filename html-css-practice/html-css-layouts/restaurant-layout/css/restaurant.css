@@ -32,12 +32,12 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header, main, .main-button, .about-container, .menu-container, .reservation-container, .testimonial-containers, form {
+.first-bg, header, main, .main-button, .about-container, .menu-container, .reservation-container, .testimonials-container, form {
   display: flex;
   padding: 0 10rem;
 }
 
-header , .main-socials-container, .about-container, .menu-cards-container, .menu-container > nav > ul, .hours-of-operation, .menu-btn {
+header, .main-socials-container, .about-container, .menu-cards-container, .menu-container > nav > ul, .hours-of-operation, .menu-btn {
   flex-direction: row;
 }
 
@@ -53,7 +53,7 @@ body, .reservation-container, .main-container, .menu-container, .menu-card, .res
 
 header {
   justify-content: space-between;
-  padding: 2rem;
+  padding: 2rem 10rem;
 }
 
 header, main {
