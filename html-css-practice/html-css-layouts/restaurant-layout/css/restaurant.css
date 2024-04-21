@@ -289,6 +289,10 @@ main i {
   padding-bottom: 6rem;
 }
 
+.testimonial-dots-container ul {
+  padding-left: 0;
+}
+
 .fa-circle {
   color: orange;
   padding: 1rem;
