@@ -33,17 +33,30 @@ body {
 /* LAYOUT
 /*******************************************/
 .first-bg, header, main, .main-button, .about-container, .menu-container, .reservation-container, .testimonials-container, form {
-  display: flex;
   padding: 0 10rem;
+}
+
+.first-bg, header, main, .main-button, .about-container, .menu-container, .reservation-container, 
+.testimonials-container, form, .testimonial-dots-container ul, 
+.menu-navigation-dots-container ul, .testimonial-card-container {
+  display: flex;
 }
 
 header, .main-socials-container, .about-container, .menu-cards-container, .menu-container > nav > ul, .hours-of-operation, .menu-btn {
   flex-direction: row;
 }
 
-body, .reservation-container, .main-container, .menu-container, .menu-card, .reservation-container, .hours-left, .hours-right, .testimonials-container, .testimonial-card-container {
+body, .reservation-container, .main-container, .menu-container, .menu-card, 
+.reservation-container, .hours-left, .hours-right, .testimonials-container, 
+.testimonial-card-container, .testimonial-card-container  {
   flex-direction: column;
 }
+
+.menu-container, .testimonials-container , .testimonial-dots-container ul, .menu-navigation-dots-container ul, 
+.reservation-container, .testimonial-card-container  {
+  align-items: center;
+}
+
 
 .div-container {
   width: 90%;
@@ -225,6 +238,74 @@ main i {
 
 .menu-4 {
   background: url("../images/restaurant/menu4.png") repeat-y;
+}
+
+.reservation-container {
+  background: gray;
+}
+
+.testimonials-container h2 {
+  padding-top: 6rem;
+}
+
+.testimonials-container h3 {
+  padding-bottom: 6rem;
+}
+
+.testimonial-card-container h4 {
+  font-size: 2.4rem;
+  padding-top: 2rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.testimonial-card-container h5 {
+  margin: 0;
+  padding-top: .6rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+
+.testimonial-card-container p {
+  font-size: 1.8rem;
+  font-weight: 200;
+  width: 60%;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.testimonial-card-star-container {
+  padding-top: 2rem;
+  padding-left: 0;
+}
+
+.testimonial-pic {
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.testimonial-dots-container {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.fa-circle {
+  color: orange;
+  padding: 1rem;
+}
+
+.fa-star {
+  color: gold;
+  padding: .5rem;
+  font-size: 2rem;
+}
+
+.small-dot {
+  font-size: 1.2rem;
+}
+
+.big-dot {
+  font-size: 2rem;
 }
 
 /******************************************
