@@ -23,15 +23,35 @@ Examples
 26  =>  false
 
 ************************************************************************************************
+PREP
+***********************************************************************************************
+
+PARAMETERS - A number.
+
+RESULTS - A boolean whether or not the number is a square.
+
+EXAMPLE - 4 = true, 3 = false.
+
+PSEUDOCODE - Determine the Square Root of n and return true if it is a whole number, if not return false
+
+************************************************************************************************
 MY ANSWER
 ***********************************************************************************************/
 
-
+var isSquare = function(n){
+    let nRoot = Math.sqrt(n)
+    if (nRoot !== Math.floor(nRoot)) {
+      return false;
+    }
+    return true; // fix me
+  }
 
 /***********************************************************************************************
 BEST ANSWER
 ************************************************************************************************
 
-
+function isSquare(n) {
+  return Math.sqrt(n) % 1 === 0;
+}
 
 */
