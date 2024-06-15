@@ -10,6 +10,8 @@ Every day you rent the car costs $40. If you rent the car for 7 or more days, yo
 
 Write a code that gives out the total amount for different days(d).
 
+// URL: 
+
 ************************************************************************************************
 MY ANSWER
 ***********************************************************************************************/
