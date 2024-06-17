@@ -17,8 +17,22 @@ Examples
 MY ANSWER
 ***********************************************************************************************/
 
+function century(year) {
+    let yearToString = year.toString();
+    let firstDigs = Number(yearToString.slice(0,yearToString.length - 2));
+    if (year > 100 && year % 100 == 0) {
+        return firstDigs;
+    } else if (year > 100) {
+        return firstDigs + 1; 
+    } else {
+        return 1;
+    }
+}
+
 /***********************************************************************************************
 BEST ANSWER
 ************************************************************************************************
+
+const century = year => Math.ceil(year/100)
 
 */
