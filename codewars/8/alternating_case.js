@@ -13,6 +13,8 @@ Define String.prototype.toAlternatingCase (or a similar function/method such as 
 "String.prototype.toAlternatingCase".toAlternatingCase() === "sTRING.PROTOTYPE.TOaLTERNATINGcASE"
 As usual, your function/method should be pure, i.e. it should not mutate the original string.
 
+// URL: 
+
 ************************************************************************************************
 MY ANSWER
 ***********************************************************************************************/
