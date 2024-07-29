@@ -21,13 +21,13 @@ For example:
 PREP
 ***********************************************************************************************
 
-PARAMETERS - 
+PARAMETERS - The inputs will always be three valid numbers.
 
-RESULTS - 
+RESULTS - The result should be a single number.
 
-EXAMPLE - 
+EXAMPLE - 1, 4, 8 = 13
 
-PSEUDOCODE - 
+PSEUDOCODE - Add all 3 together and return the sum
 
 ************************************************************************************************
 MY ANSWER
