@@ -33,7 +33,9 @@ PSEUDOCODE - Add all 3 together and return the sum
 MY ANSWER
 ***********************************************************************************************/
 
-
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+    return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+  }
 
 /***********************************************************************************************
 BEST ANSWER
