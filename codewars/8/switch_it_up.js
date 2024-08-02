@@ -16,13 +16,18 @@ If your language supports it, try using a switch statement.
 PREP
 ***********************************************************************************************
 
-PARAMETERS - 
+PARAMETERS - The input will be whole numbers between 0 and 9.
 
-RESULTS - 
+RESULTS - The output will be a string that is the number spelled as a word.
 
-EXAMPLE - 
+EXAMPLE - 1 = "One".
 
 PSEUDOCODE - 
+
+Use a switch statement.  
+For each case (representing the numbers), return the number as a word.  
+Break.  
+Repeat for each digit.
 
 ************************************************************************************************
 MY ANSWER
