@@ -82,5 +82,5 @@ switchItUp=n=>["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","N
 WHAT I LEARNED
 ************************************************************************************************
 
-
+I followed the instructions of the question, but the best answer is a very interesting way to address the problem using alternative methods.
 */
